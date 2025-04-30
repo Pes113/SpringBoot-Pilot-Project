@@ -17,7 +17,7 @@ public class Indexcontroller {
 
     @GetMapping("/fire")
     public String fire() {
-        return "views/fire";
+        return "/views/fire";
     }
 
     @GetMapping("/1")
